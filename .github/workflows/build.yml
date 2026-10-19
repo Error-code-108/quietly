@@ -13,7 +13,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with: { channel: 'stable' }
       - run: flutter pub get
-      - run: flutter build apk --release --split-per-abi || true
+      - run: flutter build apk --release --split-per-abi
       - run: |
           echo "=== Finding APK files ==="
           find /home/runner/work/quietly -name "*.apk" 2>/dev/null
