@@ -1,6 +1,6 @@
 # Quietly
 
-> Turn any Bluetooth headphone into a noise-cancelling one — in software.
+> Turn any Bluetooth headphone into a noise-cancelling one — in software. A
 
 [![build](https://github.com/your-org/quietly/actions/workflows/build.yml/badge.svg)](./.github/workflows/build.yml)
 ![flutter](https://img.shields.io/badge/Flutter-3.19-blue)
